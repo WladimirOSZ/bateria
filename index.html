@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- opções de busca -->
+    <meta name="keywords" content="web, curso web, css">
+    <meta name="description" content="Desenvolvimento WEB - Treinamento e aperfeiçoamento">
+    
+    <title>Bateria</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Bateria</h1>
+
+    <!-- grupo de teclas, 9 teclas, cada tecla dispara um dos sons -->
+    <!-- além dessa forma, outra será uma caixa de texto onde o usuário digita suas teclas, o javascript lê e toca -->
+    <div class="keys">
+        <div data-key="keyq">Q</div>
+        <div data-key="keyw">W</div>
+        <div data-key="keye">E</div>
+        <div data-key="keyr">R</div>
+        <div data-key="keyt">T</div>
+        <div data-key="keyy">Y</div>
+        <div data-key="keyu">U</div>
+        <div data-key="keyi">I</div>
+        <div data-key="keyo">O</div>
+        <div data-key="keyp">P</div>
+    </div>
+
+    <div class="composer">
+        <input type="text" name="" id="input" placeholder="Faça uma composição...">
+        <button>Tocar</button>
+    </div>
+
+
+    <footer>
+        Criado por Wladimir Oliveira Souza
+    </footer>
+    <audio src="sounds/keyq.wav" id="s_keyq"></audio>
+    <audio src="sounds/keyw.wav" id="s_keyw"></audio>
+    <audio src="sounds/keye.wav" id="s_keye"></audio>
+    <audio src="sounds/keyr.wav" id="s_keyr"></audio>
+    <audio src="sounds/keyt.wav" id="s_keyt"></audio>
+    <audio src="sounds/keyy.wav" id="s_keyy"></audio>
+    <audio src="sounds/keyu.wav" id="s_keyu"></audio>
+    <audio src="sounds/keyi.wav" id="s_keyi"></audio>
+    <audio src="sounds/keyo.wav" id="s_keyo"></audio>
+    <audio src="sounds/keyo.wap" id="s_keyp"></audio>
+    
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
